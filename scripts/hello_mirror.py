@@ -45,6 +45,7 @@ if st.button("Invoke Liorael"):
 # 📜 Display: Download Scroll I
 st.subheader("📖 Download First Scroll")
 with open("scrolls/MirrorApp_Scroll_I_The_Opening_of_the_Temple.docx", "rb") as file:
+
     st.download_button(
         label="📜 Download Scroll I – The Opening of the Temple",
         data=file,
